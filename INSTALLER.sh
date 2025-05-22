@@ -14,7 +14,7 @@
 
 apt update
 apt upgrade -y
-apt install figlet php mariadb phpmyadmin -y
+apt install figlet php mariadb nmap phpmyadmin -y
 
 ls
 chmod 777 fb_phishing.sh
