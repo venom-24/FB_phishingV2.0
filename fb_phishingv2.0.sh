@@ -97,7 +97,7 @@ else
 echo -e   "\e[1;31m El servidor PHP local está APAGADO, Lo Activaremos" 
 printf $reset
     sleep 2
-    php -S localhost:1212
+    php -S localhost:8080
 	fi
 	
 	;;
